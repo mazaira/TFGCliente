@@ -9,6 +9,14 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require bootstrap
  *= require_tree .
+ *= require bootstrap
  */
+
+.navbar-form{
+	margin-left: 10%;
+	.form-control{
+		width: 300px !important;
+		height: 30px !important;
+	}
+}
